@@ -1,0 +1,38 @@
+{
+  "name": "start-concurrent",
+  "version": "0.1.0",
+  "description": "Concurrent tasks runner for Start",
+  "keywords": [
+    "start",
+    "start-task",
+    "concurrent"
+  ],
+  "homepage": "https://github.com/start-runner/concurrent",
+  "repository": "start-runner/concurrent",
+  "author": "Kir Belevich <kir@soulshine.in> (https://github.com/deepsweet)",
+  "files": [
+    "build/"
+  ],
+  "main": "build/index.js",
+  "dependencies": {
+    "start": "^5.1.0"
+  },
+  "devDependencies": {
+    "babel-preset-start": "^0.1.0",
+    "eslint-config-tough": "^0.3.3",
+    "husky": "^0.12.0",
+    "sinon": "^1.17.7",
+    "start-babel-cli": "^4.0.1",
+    "start-start-preset": "^3.0.0",
+    "tape": "^4.6.0"
+  },
+  "scripts": {
+    "start": "start-runner -p start-start-preset",
+    "prepush": "yarn start prepush",
+    "prepublish": "yarn start build"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "license": "MIT"
+}
