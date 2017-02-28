@@ -8,6 +8,8 @@
 
 [Concurrent](https://bytearcher.com/articles/parallel-vs-concurrent/) tasks runner for [Start](https://github.com/start-runner/start).
 
+:information_desk_person: See also [start-parallel](https://github.com/start-runner/parallel).
+
 ## Install
 
 ```sh
