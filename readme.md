@@ -6,7 +6,7 @@
 [![coverage](https://img.shields.io/codecov/c/github/start-runner/concurrent/master.svg?style=flat-square)](https://codecov.io/github/start-runner/concurrent)
 [![deps](https://img.shields.io/gemnasium/start-runner/concurrent.svg?style=flat-square)](https://gemnasium.com/start-runner/concurrent)
 
-Concurrent tasks runner for [Start](https://github.com/start-runner/start).
+[Concurrent](https://bytearcher.com/articles/parallel-vs-concurrent/) tasks runner for [Start](https://github.com/start-runner/start).
 
 ## Install
 
